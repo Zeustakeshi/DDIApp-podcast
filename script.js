@@ -67,7 +67,7 @@
         });
 
         synth.onvoiceschanged = () => {
-            voices = synth.getVoices(); // Cập nhật danh sách giọng nói khi có thay đổi
+            voices = synth.getVoices(); 
             console.log("Voices updated");
         };
     }
