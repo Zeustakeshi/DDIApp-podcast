@@ -1,6 +1,6 @@
 (() => {
     if (
-        !("speechSynthesis" in window && "SpeechSynthesisUtterance" in window)
+        !("speechSynthesis"  in window && "SpeechSynthesisUtterance" in window)
     ) {
         document.body.innerHTML =
             "The Speech Synthesis API is not supported in your browser";
